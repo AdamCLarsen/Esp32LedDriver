@@ -4,10 +4,10 @@ An ESP32 LED Driver for use with ESPHome.  Supports 12 volt and 24 volt LEDs.
 
 ## Goals
 
-1. Work with 24 Volt LEDs, up to 1.5 watts
-2. Independed control of two RGB-W strips, or eight white LED Strips
-3. Work well with Home Assistant
-4. Under $50 per board
+* Work with 24 Volt LEDs, up to 1.5 watts
+* Independed control of two RGB-W strips, or eight white LED Strips
+* Work well with Home Assistant
+* Under $50 per board
 
 ## The result
 
