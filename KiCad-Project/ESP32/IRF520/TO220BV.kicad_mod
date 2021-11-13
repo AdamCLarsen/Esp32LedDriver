@@ -1,0 +1,83 @@
+
+(module TO220BV (layer F.Cu) (tedit 6170839A)
+  (descr "<b>Molded Package</b><p>grid 2.54 mm")
+  (fp_text reference REF** (at -1.90846 5.42001 0) (layer F.SilkS)
+    (effects (font (size 1.00181102362 1.00181102362) (thickness 0.15)))
+  )
+  (fp_text value TO220BV (at -0.63516 6.98677 0) (layer F.Fab)
+    (effects (font (size 1.0002519685 1.0002519685) (thickness 0.15)))
+  )
+  (pad D thru_hole oval (at 0.0 2.54) (size 1.524 3.048) (drill 1.016) (layers *.Cu *.Mask))
+  (pad G thru_hole oval (at -2.54 2.54) (size 1.524 3.048) (drill 1.016) (layers *.Cu *.Mask))
+  (pad S thru_hole oval (at 2.54 2.54) (size 1.524 3.048) (drill 1.016) (layers *.Cu *.Mask))
+  (fp_circle (center -4.4958 3.7084) (end -4.2418 3.7084) (layer F.SilkS) (width 0.0))
+  (fp_line (start 4.699 4.318) (end 4.953 4.064) (layer F.SilkS) (width 0.1524))
+  (fp_line (start 4.699 4.318) (end -4.699 4.318) (layer F.SilkS) (width 0.1524))
+  (fp_line (start -4.953 4.064) (end -4.699 4.318) (layer F.SilkS) (width 0.1524))
+  (fp_line (start 5.08 1.143) (end 4.953 4.064) (layer F.SilkS) (width 0.1524))
+  (fp_line (start -4.953 4.064) (end -5.08 1.143) (layer F.SilkS) (width 0.1524))
+  (fp_poly
+    (pts
+      (xy -5.33557 0.0)
+      (xy 5.334 0.0)
+      (xy 5.334 0.762224)
+      (xy -5.33557 0.762224)
+    ) (layer F.SilkS) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -5.34067 0.762)
+      (xy -3.429 0.762)
+      (xy -3.429 1.27159)
+      (xy -5.34067 1.27159)
+    ) (layer F.SilkS) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -1.65338 0.762)
+      (xy -0.889 0.762)
+      (xy -0.889 1.27183)
+      (xy -1.65338 1.27183)
+    ) (layer F.SilkS) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -3.43262 0.762)
+      (xy -1.651 0.762)
+      (xy -1.651 1.27134)
+      (xy -3.43262 1.27134)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 0.890755 0.762)
+      (xy 1.651 0.762)
+      (xy 1.651 1.27251)
+      (xy 0.890755 1.27251)
+    ) (layer F.SilkS) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 3.43047 0.762)
+      (xy 5.334 0.762)
+      (xy 5.334 1.27054)
+      (xy 3.43047 1.27054)
+    ) (layer F.SilkS) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.889805 0.762)
+      (xy 0.889 0.762)
+      (xy 0.889 1.27115)
+      (xy -0.889805 1.27115)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 1.65365 0.762)
+      (xy 3.429 0.762)
+      (xy 3.429 1.27204)
+      (xy 1.65365 1.27204)
+    ) (layer F.Fab) (width 0.01)
+  )
+)
