@@ -2,6 +2,4 @@
   (lib (name 2N2907_)(type Legacy)(uri ${KIPRJMOD}/2N2907/2N2907_.lib)(options "")(descr ""))
   (lib (name IRF520)(type Legacy)(uri ${KIPRJMOD}/IRF520/IRF520.lib)(options "")(descr ""))
   (lib (name TC4420CPA)(type Legacy)(uri ${KIPRJMOD}/TC4420CPA/TC4420CPA.lib)(options "")(descr ""))
-  (lib (name ESP32LedDriver-rescue)(type Legacy)(uri D:/Dropbox/Kicad/ESP32LedDriver.V1/ESP32LedDriver-rescue.lib)(options "")(descr ""))
-  (lib (name HiLetgoINA219)(type Legacy)(uri D:/Dropbox/Kicad/ESP32LedDriver.V1/HiLetgoINA219.lib)(options "")(descr ""))
 )
