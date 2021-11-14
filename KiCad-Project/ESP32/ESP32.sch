@@ -446,9 +446,9 @@ $Comp
 L Connector:Conn_01x06_Female J3
 U 1 1 61877E1E
 P 9900 1850
-F 0 "J3" H 9928 1826 50  0000 L CNN
+F 0 "J3" H 9928 1826 50  0001 L CNN
 F 1 "UART" H 9725 1475 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical" H 9900 1850 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 9900 1850 50  0001 C CNN
 F 3 "~" H 9900 1850 50  0001 C CNN
 F 4 "Mouser" H 9900 1850 50  0001 C CNN "SUPPLIER"
 	1    9900 1850
