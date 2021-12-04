@@ -11,4 +11,4 @@ An ESP32 LED Driver for use with ESPHome.  Supports 12 volt and 24 volt LEDs.
 
 ## The result
 
-![image](https://user-images.githubusercontent.com/1480439/141598367-8cf74996-200a-43a2-a123-7c2e4f3ba843.png)
+![image](https://user-images.githubusercontent.com/1480439/144723798-746eac0c-7783-49d0-a678-dc5b6b58129d.png)
