@@ -1,0 +1,116 @@
+esphome:
+  name: Esp32LedDriver
+  platform: ESP32
+  board: esp32dev
+  
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+wifi:
+  ssid: ""
+  password: ""
+
+web_server:
+
+i2c:
+  sda: 21
+  scl: 22
+  scan: true
+  id: bus_a
+  
+output:
+  - platform: ledc
+    pin: GPIO16
+    id: driver8
+    frequency: 20000Hz
+  - platform: ledc
+    pin: GPIO17
+    id: driver7
+    frequency: 20000Hz
+  - platform: ledc
+    pin: GPIO18
+    id: driver6
+    frequency: 20000Hz
+  - platform: ledc
+    pin: GPIO27
+    id: driver5
+    frequency: 20000Hz
+  - platform: ledc
+    pin: GPIO26
+    id: driver4
+    frequency: 20000Hz
+  - platform: ledc
+    pin: GPIO25
+    id: driver3
+    frequency: 20000Hz
+  - platform: ledc
+    pin: GPIO33
+    id: driver2
+    frequency: 20000Hz
+  - platform: ledc
+    pin: GPIO32
+    id: driver1
+    frequency: 20000Hz
+  - platform: ledc
+    pin: GPIO13  # Changed to GPIO19 on V2 boards
+    inverted: true
+    id: TestLED
+    frequency: 20000Hz
+ 
+# Example usage in a light
+light:
+  - platform: monochromatic
+    output: driver1
+    name: "driver1"
+    default_transition_length: 500ms
+  - platform: monochromatic
+    output: driver2
+    name: "driver2"
+    default_transition_length: 500ms
+  - platform: monochromatic
+    output: driver3
+    name: "driver3"
+    default_transition_length: 500ms
+  - platform: monochromatic
+    output: driver4
+    name: "driver4"
+    default_transition_length: 500ms
+  - platform: monochromatic
+    output: driver5
+    name: "driver5"
+    default_transition_length: 500ms
+  - platform: monochromatic
+    output: driver6
+    name: "driver6"
+    default_transition_length: 500ms
+  - platform: monochromatic
+    output: driver7
+    name: "driver7"
+    default_transition_length: 500ms
+  - platform: monochromatic
+    output: driver8
+    name: "driver8"
+    default_transition_length: 500ms
+  - platform: monochromatic
+    output: TestLED
+    name: "TestLED"
+    default_transition_length: 500ms
+
+sensor:
+  - platform: ina219
+    address: 0x45
+    shunt_resistance: 0.1 ohm
+    current:
+      name: "Current"
+    power:
+      name: "Power"
+    bus_voltage:
+      name: "Voltage"
+    shunt_voltage:
+      name: "Shunt Voltage"
+    max_voltage: 25.0V
+    max_current: 3.2A
+    update_interval: 10s
