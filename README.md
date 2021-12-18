@@ -11,7 +11,7 @@ An ESP32 LED Driver for use with [ESPHome](https://esphome.io/index.html).  Supp
 
 ## Pin assignment on ESP32
 
-* Test LED - ~IO19
+* Test LED - ~IO19 (was ~IO13 in V1)
 * SDA - IO21
 * SCL - IO22
 * INA219 - i2c address - 45
