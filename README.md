@@ -34,4 +34,6 @@ An ESP32 LED Driver for use with [ESPHome](https://esphome.io/index.html).  Supp
 
 I have designed a case for it as well over on [OnShape](https://cad.onshape.com/documents/408e2383d926b3595b2bb312/w/fd92e074be70698e5e0da078/e/0ab2fa066dd2b40c54c9b8b1?renderMode=0&uiState=61bd8b5acb34920ff4b042c0) for use with a 3D printer.
 
+Print uses M3 3D Printing Brass Nuts, 5mm x 6mm Embedment.  Found them on [Amazon here](https://www.amazon.com/gp/product/B09KZSJS88/).
+
 ![Full Assembly](https://user-images.githubusercontent.com/1480439/146633107-b8e2c392-83b6-4485-a798-b17780c5717a.png)
